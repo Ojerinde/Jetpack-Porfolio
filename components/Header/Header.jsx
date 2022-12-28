@@ -1,11 +1,13 @@
-import NameCard from "../NameCard/NameCard";
-import Navigation from "../Navigation/Navigation";
+import NameCard from "./NameCard/NameCard";
+import Navigation from "./Navigation/Navigation";
+import Video from "./Video";
 
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <Navigation />
       <NameCard />
+      <Video />
     </header>
   );
 };

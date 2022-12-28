@@ -15,4 +15,9 @@ html {
 body {
   box-sizing: border-box;
   font-family: $default-font;
+  background-color: $secondary-color;
+}
+
+ul {
+  list-style: none;
 }

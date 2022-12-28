@@ -1,0 +1,28 @@
+.stack__item {
+  display: flex;
+  align-items: center;
+  margin: 0.8rem 0;
+  border: 0.2rem solid $tertiary-color;
+  border-radius: 10rem;
+
+  & span.stack {
+    font-size: $default-font-size;
+    flex-basis: 20%;
+    padding: 0.5rem 0;
+    text-align: center;
+    background: rgba($tertiary-color, 0.4);
+    color: $primary-light-color;
+    border-top-left-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+  }
+  & .div {
+    background-color: rgba($primary-very-light-color, 0.6);
+    flex-basis: 75%;
+    padding: 0.2rem 0rem;
+  }
+  & span.level {
+    margin-left: 0.5rem;
+    font-size: $default-font-size;
+    color: $primary-color;
+  }
+}

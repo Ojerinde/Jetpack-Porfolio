@@ -1,10 +1,14 @@
-import Header from "../components/Header/Header";
+import About from "../components/About/About";
+import Contact from "../components/Contact/Contact";
+import ProjectsSection from "../components/Projects/ProjectsSection";
 
 const App = () => {
   return (
-    <main>
-      <Header />
-    </main>
+    <>
+      <About />
+      <ProjectsSection />
+      <Contact />
+    </>
   );
 };
 export default App;
