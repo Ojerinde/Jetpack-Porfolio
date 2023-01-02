@@ -1,13 +1,14 @@
 .navigation {
-  width: 100%;
   padding: 4rem 6rem 0;
+
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   & figure {
-    width: 6rem;
-    height: 6rem;
+    width: 4.5rem;
+    height: 4.5rem;
     overflow: hidden;
     cursor: pointer;
 
@@ -41,4 +42,10 @@
       }
     }
   }
+}
+.sticky {
+  position: fixed;
+  background-color: rgba(44, 44, 44, 0.8);
+  z-index: 100;
+  padding: 1rem 6rem !important;
 }

@@ -1,0 +1,32 @@
+.login__form {
+  width: 35%;
+  margin: 5rem auto 0;
+}
+
+.invalid__input {
+  color: rgb(244, 94, 94);
+  font-size: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.btn__box {
+  width: 100%;
+  margin: 4.5rem 0 2rem;
+}
+
+.button {
+  width: 100%;
+  font-size: 1.6rem;
+  padding: 1.4rem 0;
+  background-color: #dfd661;
+  border: 0.2rem solid transparent;
+  border-radius: 10rem;
+  color: var(primary-color);
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background: #fff;
+  border: 0.2rem solid #dfd661;
+}

@@ -1,0 +1,93 @@
+.footer {
+  background-color: $primary-color;
+  padding: 8rem 6rem;
+  position: relative;
+
+  &__scroll {
+    height: 4rem;
+    width: 4rem;
+    fill: $tertiary-color;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    &--box {
+      position: absolute;
+      top: -12%;
+      left: 48%;
+      height: 7rem;
+      width: 7rem;
+      border-radius: 50%;
+      background-color: $primary-light-color;
+      cursor: pointer;
+
+      &:hover > .footer__scroll {
+        animation: slideUpDown 0.5s;
+      }
+    }
+  }
+
+  &__icons {
+    margin: 3rem auto 5rem;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    &--box {
+      background-color: $primary-light-color;
+      position: relative;
+      width: 6rem;
+      height: 6rem;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: $tertiary-color;
+      }
+      &:hover > .icon {
+        fill: $primary-light-color;
+      }
+
+      & svg.icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 3rem;
+        width: 3rem;
+        fill: $secondary-color;
+        transition: all 0.3s;
+      }
+    }
+  }
+  &__title {
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 80%,
+      65% 80%,
+      50% 100%,
+      45% 80%,
+      0 80%
+    );
+    background-color: $tertiary-color;
+    box-shadow: 0 1rem 2rem $secondary-color;
+    padding: 1.5rem 2rem 2rem;
+    font-size: $default-font-size;
+    position: absolute;
+    top: -50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__name {
+    text-align: center;
+    font-size: $default-font-size;
+    color: $secondary-light-color;
+    text-transform: uppercase;
+    &--span {
+      color: $tertiary-color;
+    }
+  }
+}
