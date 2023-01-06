@@ -1,20 +1,29 @@
+import { useRouter } from "next/router";
+import Button from "../UI/Button/Button";
+
 const Project = ({ projectImage, projectName, projectStacks }) => {
-  const listStyles = {
-    background: `url(${projectImage})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    height: "30rem",
+  const router = useRouter();
+  const projectId = projectName.split(" ")[0].toLowerCase();
+  const learnMoreHandler = () => {
+    router.push(`${projectId}`);
   };
   return (
     <li className="project">
-      <div style={listStyles}></div>
-      <div className="project__title">{projectName}</div>
-      <div className="project__stack">
-        {projectStacks.map((stack, index) => (
-          <li key={index} className="project__stack--item">
-            {stack}
-          </li>
-        ))}
+      <div className="project__front--card">
+        <img src={projectImage} alt="" className="project__card--image" />
+      </div>
+      <div className="project__back--card">
+        <div className="project__title">{projectName}</div>
+        <div className="project__stack">
+          {projectStacks.map((stack, index) => (
+            <li key={index} className="project__stack--item">
+              {stack}
+            </li>
+          ))}
+        </div>
+        <Button className="project__button" onClick={learnMoreHandler}>
+          Learn more
+        </Button>
       </div>
     </li>
   );

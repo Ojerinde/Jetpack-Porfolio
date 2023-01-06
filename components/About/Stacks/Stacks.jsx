@@ -5,7 +5,7 @@ const Stacks = () => {
     { stack: "HTML", percentage: "90" },
     { stack: "CSS", percentage: "90" },
     { stack: "Javascript", percentage: "80" },
-    { stack: "React", percentage: "80" },
+    { stack: "ReactJs", percentage: "80" },
     { stack: "NextJs", percentage: "80" },
     { stack: "VueJs", percentage: "30" },
     { stack: "Python", percentage: "70" },
