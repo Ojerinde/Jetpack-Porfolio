@@ -9,7 +9,7 @@ const Project = ({ projectImage, projectName, projectStacks }) => {
     router.push(`${projectId}`);
   };
   return (
-    <li className="project">
+    <div className="project">
       <div className="project__front--card">
         <Image fill alt={projectName} src={projectImage} sizes="100vw" />
       </div>
@@ -26,7 +26,7 @@ const Project = ({ projectImage, projectName, projectStacks }) => {
           Learn more
         </Button>
       </div>
-    </li>
+    </div>
   );
 };
 export default Project;
