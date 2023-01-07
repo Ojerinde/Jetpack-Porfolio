@@ -91,3 +91,22 @@
     }
   }
 }
+
+@media only screen and (max-width: $bp--smallest) {
+  .footer {
+    &__scroll {
+      height: 3rem;
+      width: 3rem;
+      &--box {
+        top: -9%;
+        left: 45%;
+        height: 6rem;
+        width: 6rem;
+      }
+    }
+
+    &__icons {
+      width: 50%;
+    }
+  }
+}

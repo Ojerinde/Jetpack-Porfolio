@@ -2,8 +2,8 @@ import Stack from "./Stack";
 
 const Stacks = () => {
   const stacks = [
-    { stack: "HTML", percentage: "90" },
-    { stack: "CSS", percentage: "90" },
+    { stack: "HTML", percentage: "85" },
+    { stack: "CSS", percentage: "85" },
     { stack: "Javascript", percentage: "80" },
     { stack: "ReactJs", percentage: "80" },
     { stack: "NextJs", percentage: "80" },

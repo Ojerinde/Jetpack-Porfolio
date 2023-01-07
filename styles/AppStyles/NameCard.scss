@@ -20,3 +20,10 @@
     color: currentColor;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .namecard {
+    transform: translate(-35%, -50%);
+    width: 100%;
+  }
+}

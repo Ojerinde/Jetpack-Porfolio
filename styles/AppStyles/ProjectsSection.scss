@@ -6,11 +6,26 @@
     font-size: 3rem;
     text-transform: uppercase;
     color: $primary-light-color;
+    &:after {
+      content: "";
+      display: block;
+      width: 5rem;
+      height: 0.4rem;
+      background-color: $tertiary-color;
+      margin: 1rem auto 0;
+    }
   }
   &--subheader {
     font-size: 2rem;
     text-transform: capitalize;
     color: $primary-light-color;
-    margin: 2rem 0;
+    margin: 2rem 0 3rem;
+    letter-spacing: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: $bp--smallest) {
+  .section__projects {
+    padding: 10rem 3rem;
   }
 }

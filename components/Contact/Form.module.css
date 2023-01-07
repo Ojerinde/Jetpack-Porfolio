@@ -30,3 +30,9 @@
   background: #fff;
   border: 0.2rem solid #dfd661;
 }
+
+@media only screen and (max-width: 500px) {
+  .login__form {
+    width: 80%;
+  }
+}

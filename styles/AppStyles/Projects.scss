@@ -3,3 +3,9 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
 }
+
+@media only screen and (max-width: $bp--smallest) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
