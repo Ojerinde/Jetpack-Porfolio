@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { TiThMenu } from "react-icons/ti";
+// import { TiThMenu } from "react-icons/ti";
 import { BsFillMenuButtonWideFill } from "react-icons/bs";
 import { IoMdClose } from "react-icons/io";
 
+// eslint-disable-next-line react/display-name
 const Navigation = React.forwardRef((props, ref) => {
   const [open, setOpen] = useState(false);
   const clickedHandler = (e) => {

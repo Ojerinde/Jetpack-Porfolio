@@ -19,6 +19,7 @@ const ProjectDetails = (props) => {
       </div>
       <figure className="project__details--figure">
         <img src={props?.image} alt="" className="project__details--image" />
+        {/* <Image fill alt={props?.title} src={props?.image} sizes="100vw" /> */}
       </figure>
       <div className="project__details--section">
         <h2 className="project__details--label">Description</h2>

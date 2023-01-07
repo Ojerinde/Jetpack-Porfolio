@@ -14,7 +14,7 @@ const projectsBanks = [
       "React-router",
       "React-redux",
     ],
-    image: "./assets/projects/askanswer.png",
+    image: "/assets/projects/askanswer.png",
     githubLink: "https://github.com/Ojerinde/Ask-Answer",
     liveLink: "",
     description:
@@ -29,7 +29,7 @@ const projectsBanks = [
       "node-sass",
       "react-icons",
     ],
-    image: "./assets/projects/portfolio.png",
+    image: "/assets/projects/portfolio.png",
     githubLink: "https://github.com/Ojerinde/Github_portfolio",
     liveLink: "https://github-joe.netlify.app/",
     description:
@@ -39,7 +39,7 @@ const projectsBanks = [
     title: "Trivia App",
     stacks: ["ReactJs", "Python", "CSS"],
     libraries: ["Flask", "Flask-SQLAlchemy", "Flask-RESTful", "Flask-Cors"],
-    image: "./assets/projects/trivia.png",
+    image: "/assets/projects/trivia.png",
     githubLink: "https://github.com/Ojerinde/Udacity-Trivia-App",
     liveLink: "",
     description:
@@ -55,7 +55,7 @@ const projectsBanks = [
       "Flask-Migrate",
       "Postgres",
     ],
-    image: "./assets/projects/fyyur.png",
+    image: "/assets/projects/fyyur.png",
     githubLink: "https://github.com/Ojerinde/Udacity-Fyyur-1",
     liveLink: "",
     description:
@@ -65,7 +65,7 @@ const projectsBanks = [
     title: "Calculator",
     stacks: ["ReactJs", "SCSS"],
     libraries: ["node-sass", "react-icons", "react-redux", "react-router-dom"],
-    image: "./assets/projects/calculator.png",
+    image: "/assets/projects/calculator.png",
     githubLink: "https://github.com/Ojerinde/AltSchool--Assignment-4",
     liveLink: "https://minimalcalculator-joe.netlify.app/",
     description:
@@ -80,7 +80,7 @@ const projectsBanks = [
       "node-sass",
       "react-icons",
     ],
-    image: "./assets/projects/myschool.png",
+    image: "/assets/projects/myschool.png",
     githubLink: "https://github.com/Ojerinde/MySchool",
     liveLink: "https://myschool-joe.netlify.app/",
     description:
@@ -97,7 +97,7 @@ const projectsBanks = [
       "concat",
       "live-server",
     ],
-    image: "./assets/projects/natour.png",
+    image: "/assets/projects/natour.png",
     githubLink: "https://github.com/Ojerinde/Advanced_CSS--Natour-Project",
     liveLink: "https://natour-jor-el.netlify.app/",
     description: "Okay, this is a project I did for my CSS course",
@@ -112,7 +112,7 @@ const projectsBanks = [
       "Python-Jose",
       "Postman",
     ],
-    image: "./assets/projects/identity.png",
+    image: "/assets/projects/identity.png",
     githubLink: "https://github.com/Ojerinde/Udacity-Identity_Management-3",
     liveLink: "",
     description:
@@ -122,7 +122,7 @@ const projectsBanks = [
     title: "Trillo App",
     stacks: ["HTML", "SCSS"],
     libraries: ["node-sass", "npm-run-all", "concat", "parcel"],
-    image: "./assets/projects/trillo.png",
+    image: "/assets/projects/trillo.png",
     githubLink: "https://github.com/Ojerinde/Trillo_app",
     liveLink: "https://trillo-app-jor-el.netlify.app/",
     description: "In this project, I horned my FlexBox skills",
@@ -138,7 +138,7 @@ const projectsBanks = [
       "autoprefixer",
       "postcss-cli",
     ],
-    image: "./assets/projects/nexter.png",
+    image: "/assets/projects/nexter.png",
     githubLink: "https://github.com/Ojerinde/Nexter_app",
     liveLink: "https://nexter-jor-el.netlify.app/",
     description: "In this project, I horned my Grid skills",
@@ -154,7 +154,7 @@ const projectsBanks = [
       "autoprefixer",
       "postcss-cli",
     ],
-    image: "./assets/projects/omnifood.png",
+    image: "/assets/projects/omnifood.png",
     githubLink: "https://github.com/Ojerinde/Omnifood",
     liveLink: "https://omnifood-jor-el.netlify.app/",
     description:
@@ -164,7 +164,7 @@ const projectsBanks = [
     title: "Forkify Food-shop App",
     stacks: ["HTML", "SCSS", "JavaScript"],
     libraries: ["core-js", "fractional", "regenerator-runtime", "parcel"],
-    image: "./assets/projects/forkify.png",
+    image: "/assets/projects/forkify.png",
     githubLink: "https://github.com/Ojerinde/Forkify_Course-Project",
     liveLink: "https://foodshop-joe.netlify.app/",
     description:

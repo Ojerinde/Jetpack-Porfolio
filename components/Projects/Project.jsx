@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useRouter } from "next/router";
 import Button from "../UI/Button/Button";
 
@@ -10,7 +11,7 @@ const Project = ({ projectImage, projectName, projectStacks }) => {
   return (
     <li className="project">
       <div className="project__front--card">
-        <img src={projectImage} alt="" className="project__card--image" />
+        <Image fill alt={projectName} src={projectImage} sizes="100vw" />
       </div>
       <div className="project__back--card">
         <div className="project__title">{projectName}</div>
