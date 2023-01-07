@@ -21,7 +21,7 @@
   background-color: #dfd661;
   border: 0.2rem solid transparent;
   border-radius: 10rem;
-  color: var(primary-color);
+  color: var(primary-light-color);
   font-weight: 700;
   transition: all 0.3s;
 }

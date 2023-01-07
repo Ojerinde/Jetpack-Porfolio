@@ -1,4 +1,4 @@
-const Blog = () => {
-  return <li className="blog__item"></li>;
+const Blog = ({ item }) => {
+  return <li className="blog__item">{item}</li>;
 };
 export default Blog;

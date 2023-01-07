@@ -9,6 +9,7 @@ const Stacks = () => {
     { stack: "NextJs", percentage: "80" },
     { stack: "VueJs", percentage: "30" },
     { stack: "Python", percentage: "70" },
+    { stack: "Git", percentage: "80" },
   ];
   return (
     <ul className="stacks__list">

@@ -9,7 +9,6 @@ const Navigation = React.forwardRef((props, ref) => {
       ?.querySelector(`#${sectionToScrollTo}`)
       ?.scrollIntoView({ behavior: "smooth" });
   };
-  // Getting the Nav height
 
   return (
     <nav className="navigation" ref={ref}>
